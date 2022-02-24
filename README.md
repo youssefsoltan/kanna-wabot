@@ -161,6 +161,6 @@ conn.logger.level = 'debug'
 ---------
 
  [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) | [![Kannachann](https://github.com/Kannachann.png?size=100)](https://github.com/Kannachann) | [![AnandaGanz](https://github.com/AnandaGanz-bot.png?size=100)](https://github.com/AnandaGanz-bor) 
-----|----|----
+----|----|----|----
 [Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [Kannachann](https://github.com/Kannachann) | [AnandaGanz](github.com/AnandaGanz-bot)
  Penulis / Pencipta | Penulis ulang Ke-1 | Penulis ulang Ke-2 | Penulis ulang ke-3
