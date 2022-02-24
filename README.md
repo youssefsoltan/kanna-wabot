@@ -40,8 +40,8 @@ Click Run
 ```
 ## Whatsapp
 
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT)
-[![Whatsapp BOT](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6283143393763/)
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LcgnBtXnHbeJx6VOgQyoxw)
+[![Whatsapp BOT](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6281215320837/)
 
 ## UNTUK PENGGUNA WINDOWS/VPS/RDP
 
@@ -69,7 +69,7 @@ pkg install ffmpeg
 pkg install imagemagick
 pkg install libwebp
 git clone https://github.com/Kannachann/kanna-wabot/
-npm install -g npm@6.14.14
+npm install -g npm@6.14.14 atau bisa juga npm i -g npm@8.5.1
 npm start
 ```
 
@@ -160,7 +160,7 @@ conn.logger.level = 'debug'
 
 ---------
 
- [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) | [![Kannachann](https://github.com/Kannachann.png?size=100)](https://github.com/Kannachann)
+ [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) | [![Kannachann](https://github.com/Kannachann.png?size=100)](https://github.com/Kannachann) | [![AnandaGanz](https://github.com/AnandaGanz-bot.png?size=100)](https://github.com/AnandaGanz-bor) 
 ----|----|----
-[Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [Kannachann](https://github.com/Kannachann)
- Penulis / Pencipta | Penulis ulang Ke-1 | Penulis ulang Ke-2
+[Nurutomo](https://github.com/Nurutomo) | [Ariffb](https://github.com/ariffb25) | [Kannachann](https://github.com/Kannachann) | [AnandaGanz](github.com/AnandaGanz-bot)
+ Penulis / Pencipta | Penulis ulang Ke-1 | Penulis ulang Ke-2 | Penulis ulang ke-3
