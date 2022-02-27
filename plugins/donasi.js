@@ -1,8 +1,8 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(fla + 'donasi')).buffer(), `››╭─〘 *Donasi* 〙
 ╭╡
-│┝‷✧ *Pulsa:* 6281215320837
-│┝‷✧ *Dana:* 6282137914790
+│┝‷✧ *Pulsa:* 081215320837
+│┝‷✧ *Dana:* 082137914790
 │┝‷✧ *Linkaja:* 
 │┝‷✧ *Gopay:* 
 │┝‷✧ *Ovo:* 
