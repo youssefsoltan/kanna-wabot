@@ -3,7 +3,7 @@ let chalk = require('chalk')
 let util = require('util')
 let fetch = require('node-fetch')
 let simple = require('./lib/simple')
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType, Presence } = require('@adiwajshing/baileys')
 
 const isNumber = x => typeof x === 'number' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(resolve, ms))
@@ -684,6 +684,7 @@ module.exports = {
       }
     } finally {
       //console.log(global.db.data.users[m.sender])
+      await this.updatePresence(m.chat, Presence.composing)
       let user, stats = global.db.data.stats
       if (m) {
         if (m.sender && (user = global.db.data.users[m.sender])) {
