@@ -12,6 +12,7 @@ let str = `››╭─〘 *Donasi* 〙
 │┝‷✧ *Ovo:* 
 │╰───···─────
 │⁺◛˖ Ingin Donasi? Chat nomor dibawah
+│ wa.me/6281215320837
 ╰──────────···───╮`
 let name = await conn.getName(m.sender)
 
