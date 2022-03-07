@@ -69,7 +69,7 @@ pkg install ffmpeg
 pkg install imagemagick
 pkg install libwebp
 git clone https://github.com/Kannachann/kanna-wabot/
-npm install -g npm@6.14.14 atau bisa juga npm i -g npm@8.5.1
+npm i -g npm@8.5.3
 npm start
 ```
 
