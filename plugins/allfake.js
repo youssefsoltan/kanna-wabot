@@ -13,7 +13,7 @@ key: {
 						"jpegThumbnail": fs.readFileSync('./src/mike.jpg') //Gambarnye
 					},
 					"title": "MikeBot", //Kasih namalu 
-					"description": "SELF BOT", 
+					"description": "GOURAV BOT", 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
 					"retailerId": "Ghost",
@@ -33,8 +33,8 @@ const ftroli = {
                             itemCount : 1,
                             status: 1,
                             surface : 1,
-                            message: 'MikeBot', //Kasih namalu
-                            orderTitle: 'Bang',
+                            message: 'Gourav', //Kasih namalu
+                            orderTitle: 'Gourav',
                             thumbnail: fs.readFileSync('./src/mike.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
           
@@ -59,7 +59,7 @@ const floc = {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "locationMessage": { "title":"jakarta","h": `aloo`, 'jpegThumbnail': fs.readFileSync('./src/mike.jpg')}}
+	 message: { "locationMessage": { "title":"Gourav","h": `aloo`, 'jpegThumbnail': fs.readFileSync('./src/mike.jpg')}}
 	}
 	
 const fliveLoc = {
@@ -67,7 +67,7 @@ const fliveLoc = {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"ANTIBOT","h": `aloo`, 'jpegThumbnail': fs.readFileSync('./src/mike.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"Gourav","h": `aloo`, 'jpegThumbnail': fs.readFileSync('./src/mike.jpg')}}
 	}
 	const fliveLoc2 = {
 	 key:
