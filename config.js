@@ -26,7 +26,7 @@ hour: 'numeric',
 minute: 'numeric',
 second: 'numeric'
 })
-let wktu = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+let wktu = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
@@ -35,7 +35,7 @@ function pickRandom(list) {
 
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
 global.linkGC = ['https://chat.whatsapp.com/LcgnBtXnHbeJx6VOgQyoxw'] // ganti jadi group lu
-global.owner = ['6281215320837', '62831433937633', '6283143393763', '6288217277973', '62831433937630', '6285704954639', '62895336282144', '6285712420674'] // Put your number here
+global.owner = ['6281215320837', '62831433937633', '6283143393763', '6288217277973', '62831433937630', '6285704954639', '62895336282144', '918089152280'] // Put your number here
 global.mods = ['6285231651905'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -73,19 +73,19 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '🌙 Loli_Botz\nwa.me/6281215320837\n\n\n𝙱𝚢 𝙻𝚎𝚝𝚝𝚊 あ\n\n\nFollow IG: @anandaganz7_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.'
+global.packname = 'Gourav\nwa.me/918089152280\n\n\n𝙱𝚢 𝗚𝗼𝘂𝗿𝗮𝘃 あ\n\n\nFollow IG: @dark_devil_3609\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.'
 global.author = '۰ ⸼'
 
 // silakan di ganti klo mau
-global.botwm = `🎮 Loli_Botz By Ananda_ツ`//UBAH JADI NAMAMU
-global.wm = `꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Lord_Ananda_ツ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷`
+global.botwm = `🎮 Gourav_ツ`//UBAH JADI NAMAMU
+global.wm = `꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Gouravツ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷`
 global.botdate = `❏ ${wktu}\n❏ ${week} ${date}`
-global.imagebot = `https://telegra.ph/file/793b6accf3758f092742a.jpg`
+global.imagebot = `https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg`
 global.logo = fs.readFileSync('./src/logo3.jpg')
-global.thumb1 = 'https://telegra.ph/file/5a882b8558fd1d2bd03fa.jpg'
-global.thumb2 = 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg'
-global.thumb3 = 'https://telegra.ph/file/88edbb01051b397574def.jpg'
-global.thumb4 = 'https://telegra.ph/file/7957630a57078c5ec0400.jpg'
+global.thumb1 = 'https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg'
+global.thumb2 = 'https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg'
+global.thumb3 = 'https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg'
+global.thumb4 = 'https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg'
 global.logoowner = fs.readFileSync('./src/owner.jpg')
 global.wait = '```[ ! ] wait...```'
 global.rpg = '[ ! ] Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT'
