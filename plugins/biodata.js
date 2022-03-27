@@ -5,15 +5,10 @@ let handler = async (m, { conn, text }) => {
 let logo = global.logoowner
   let ext= `
 *───────[ BIODATA OWNER ]───────*
-*💌 Nama* : Ananda 
-*🎨 Umur* : 15
-*🧮 Kelas* : 9
-*📈 Status* : Bermain
+*💌 Nama* : Gourav 
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @anandaganz7
-*🇫  Facebook* : https://www.facebook.com/profile.php?id=100072776483716
-*🏮 Chanel Youtube* : none
+*📷 instagran* : @dark_devil_3609
 `
 let name = await conn.getName(m.sender)
 
