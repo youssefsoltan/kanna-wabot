@@ -11,16 +11,11 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-╭─────═[ *INFO PENGGUNA* ]═─────⋆
+╭─────═[ *INFO* ]═─────⋆
 │╭───────────────···
 ┴│▸ *Name:* %name
 ⬡│▸ *Premium:* %prems
-⬡│▸ *Age:* %age
 ⬡│▸ *Limit:* %limit
-⬡│▸ *Money:* %money
-⬡│▸ *Role:* %role
-⬡│▸ *Level:* %level [%xp4levelup]
-⬡│▸ *Xp:* %exp / %maxexp
 ┬│▸ *Total Xp:* %totalexp
 │╰────────────────···
 ┠─────═[ *TODAY* ]═─────⋆
@@ -258,8 +253,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           "description": `${ucapan()}, ${name} !`.trim(),
           "footerText": `╭━━━━━━━━━━━━━━━━┈─✧
 ┴
-│⬡ Aktif selama ${uptime}
-│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+│⬡ UpTime ${uptime}
+│⬡ Battery ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 │⬡ Prefix : [#]
 │⬡ *${Object.keys(global.db.data.users).length}* Pengguna
 │⬡ *${totaljadibot.length}* Jadibot
@@ -268,11 +263,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *Author :* Nurutomo
-┴ ▸ *Owner :* Letta
+│ ▸ *Author :* Gourav
+┴ ▸ *Owner :* dark_devil_3609
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ Tolong jangan dispam ya biar ga delay
+│ Bot created by 𝗚𝗼𝘂𝗿𝗮𝘃
 ╰━━━━━━━━━━━━━━━━┈─◂
      ▌│█║▌║▌║║▌║▌║█│▌
      
@@ -325,7 +320,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "Gift",
                   "rowId": ".? gift"
                 }, {
-                  "title": "Menu 07 |🔞|",
+                  "title": "Menu 07 ||",
                   "description": "Nsfw",
                   "rowId": ".? nsfw"
                 }, {
@@ -438,7 +433,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 }, {
                                 "title": "[🔬] Script",
                                 "description": "Script Bot",
-                                "rowId": ".sc"
+                                "rowId": ".owner"
                                 }, {
                                 "title": "[🎖️] Thanks To",
                                 "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
@@ -597,19 +592,19 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
+  const time = moment.tz('Asia/Kolkata').format('HH')
   res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat pagi 🌄"
+    res = "Good Morning 🌄"
   }
   if (time > 10) {
-    res = "Selamat siang ☀️"
+    res = "Good Afternoon ☀️"
   }
   if (time >= 15) {
-    res = "Selamat sore 🌇"
+    res = "Good Evening 🌇"
   }
   if (time >= 18) {
-    res = "Selamat malam 🌙"
+    res = "Goodnight  🌙"
   }
   return res
 }
