@@ -8,10 +8,10 @@ const ftrol = {
     },
     message: {
     orderMessage: {
-    itemCount : 2022,
+    itemCount : 3609,
     status: 1,
     surface : 1,
-    message: 'Script Loli_Botz 🌟', 
+    message: 'Script Botz 🌟', 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch(fla + 'Script')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -21,14 +21,13 @@ const ftrol = {
 let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Source+code'
 let info = `◪ 📮 *SCRIPT BOT*
 │ *Script :* 
-│ ╰ https://github.com/AnandaGanz-bot/kanna-wabot
+│ ╰ https://instagram.com/dark_devil_3609
 │ *Base :* 
-│ ╰ https://github.com/bochilgaming/games-wabot
-│ *RestApi :* https://hardianto.xyz
+│ ╰ 
+│ *RestApi :* https://bit.ly/36RRYSF
 ╰──────────═┅═──────────
 📍 *N o t e :* 
-• Jangan lupa minta izin owner sebelum menggunakan scriptnya kak!
-• Jangan Lupa kasih star & kasih credit
+• Follow me to get script link and message me 
 `.trim()
 await conn.send2Button(m.chat, info, `${botol}`, '⋮☰ INFO', '.info', 'OWNER', '.owner', ftrol)
 }
